@@ -16,7 +16,7 @@ public class DocGenerator
                   {
                         foreach (var file in files)
                         {
-                              document.InsertParagraph(Path.GetFileName(file))
+                              document.InsertParagraph($"Файл {Path.GetFileName(file)}")
                                     .Font("Times New Roman")
                                     .Bold()
                                     .FontSize(14)
