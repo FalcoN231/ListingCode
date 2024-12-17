@@ -71,8 +71,8 @@ public partial class StartForm : Form
       {
             using var saveDialog = new SaveFileDialog()
             {
-                  Filter = "Txt file (*.txt)|*.txt",
-                  FileName = "Code Listing.txt"
+                  Filter = "Microsoft Word (*.docx)|*.docx",
+                  FileName = "Code Listing.docx"
             };
 
             if (saveDialog.ShowDialog() == DialogResult.OK)
