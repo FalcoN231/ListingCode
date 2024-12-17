@@ -34,7 +34,7 @@ bld/
 [Ll]ogs/
 
 # Visual Studio Editor Properties
-[Ss]olution Items/
+*.editorconfig
 
 # Poject Properties
 [Pp]roperties/
